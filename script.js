@@ -199,8 +199,7 @@ save();
 
 // Render the welcome message using welcomeEl.innerText
 
-let name = "umair";
-//  window.prompt("Enter userName");
+let name = window.prompt("Enter userName");
 let greeting = "Hi, Welcome ";
 let greetings = "to the Counter App";
 let welcomeMessage = greeting + " " + name + " " + greetings;
